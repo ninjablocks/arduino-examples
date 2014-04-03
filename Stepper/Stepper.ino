@@ -45,7 +45,7 @@ double stepIn = 0;
 
 
 static void didUpdateStepper(Device *pStepperDevice) {
-  Serial.print("didUpdateStepper received: "); Serial.println(pStepperDevice->intData);
+  Serial.print("didUpdateStepper received: "); Serial.println(pStepperDevice->intDATA);
   stepIt(pStepperDevice->intDATA);
 }
 
