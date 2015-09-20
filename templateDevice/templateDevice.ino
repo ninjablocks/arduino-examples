@@ -1,8 +1,3 @@
-/*
-This program drives a unipolar or bipolar stepper motor using the Seeed studio stepper driver on the Ninja Blocks platform.
- */
- 
-
 #include <Ninja.h>
 #include <DHT22.h>
 #include <I2C.h>
